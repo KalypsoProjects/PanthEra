@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Le Néophyte · Incarnam des Panthéons</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="index.html">Incarnam <span>des Panthéons</span></a>
+    <div class="search">
+      <label class="sr" for="q">Rechercher</label>
+      <input id="q" type="search" placeholder="Rechercher un monstre, un objet, un sort…" autocomplete="off" data-up="">
+      <div id="results" class="results" hidden></div>
+    </div>
+  </div>
+  <nav class="main" aria-label="Sections"><a href="index.html">Accueil</a><a href="neophyte.html" aria-current="page">Le Néophyte</a><a href="voies.html">Voies et dieux</a><a href="bestiaire.html">Bestiaire</a><a href="ressources.html">Ressources</a><a href="armes.html">Armes</a><a href="equipement.html">Équipement</a><a href="sorts.html">Sorts</a><a href="donjon.html">Donjon</a><a href="commandes.html">Commandes</a></nav>
+</header>
+<div class="layout">
+
+<main>
+<h1>Le Néophyte</h1>
+<p class="lede">La classe unique du serveur : un aventurier qui n'a encore choisi aucun dieu.</p>
+
+<p>Il n'existe qu'une seule classe : le <strong>Néophyte</strong>. Il commence avec l'apparence d'un mercenaire, dont on choisit les trois couleurs à la
+création. Son allure change ensuite selon la voie qu'il choisit au niveau 10.</p>
+<h2 id="armes">Trois cases d'arme</h2>
+<p>Le Néophyte se bat avec ses armes, grâce au bouton d'arme habituel. Son inventaire a trois cases d'arme :</p>
+<div class="table-scroll"><table><thead><tr><th>Case</th><th>Armes acceptées</th><th>Arme de départ</th></tr></thead><tbody><tr><td>Principale (en main)</td><td>épée, hache, pelle, faux, marteau</td><td><a href="armes.html#a42">Epée de Boisaille</a></td></tr><tr><td>Secondaire</td><td>dagues, bâton</td><td><a href="armes.html#a95">Dagues de Boisaille</a></td></tr><tr><td>Distance</td><td>arc, baguette</td><td><a href="armes.html#a89">Arc de Boisaille</a></td></tr></tbody></table></div>
+<ul>
+  <li>Les bonus des trois armes comptent toujours. Seule l'arme <strong>principale</strong> frappe.</li>
+  <li>Les sorts <strong>Équiper : principal / secondaire / distance</strong> (1 PA) échangent l'arme en main avec celle de la case choisie.
+    Le sort de l'arme déjà en main est grisé.</li>
+  <li>À la fin du combat, chaque arme retourne dans sa case. Un double-clic sur une arme la range toujours dans sa propre case.</li>
+  <li>Le Néophyte frappe à 100 % avec toutes les armes.</li>
+</ul>
+<h2 id="caracteristiques">Caractéristiques</h2>
+<p>Chaque point de capital donne <strong>1 point</strong>, dans toutes les caractéristiques (Force, Intelligence, Chance, Agilité, Vitalité, Sagesse).
+5 points de capital et 1 point de sort sont gagnés à chaque niveau.</p>
+<h2 id="regles">Règles du serveur</h2>
+<ul>
+  <li>L'expérience gagnée est <strong>multipliée par 3</strong>.</li>
+  <li>La vie revient au maximum après chaque combat, gagné ou perdu.</li>
+  <li>L'énergie n'existe plus : perdre un combat ne coûte rien.</li>
+  <li>Un échec critique ne termine plus le tour.</li>
+  <li>Aucune arme ne tombe sur les monstres : il faut les <a href="armes.html">fabriquer</a>.</li>
+  <li>Les métiers d'armes sont connus d'office et n'ont pas de niveau. Les métiers de récolte existent, mais ne sont pas nécessaires.</li>
+</ul>
+<h2 id="pnj">Les personnages importants</h2>
+<div class="table-scroll"><table class=""><thead><tr><th>Personnage</th><th>Où</th><th>Rôle</th></tr></thead><tbody><tr><td><strong>Ganymède</strong></td><td>Incarnam [0,3], arrivée</td><td>Accueille les Néophytes, fait choisir la voie au niveau 10.</td></tr><tr><td><strong>Maître Enclume</strong></td><td>Atelier [3,3]</td><td>Fabrique les armes (trois ateliers), explique les pierres précieuses.</td></tr><tr><td><strong>Le Mystès</strong></td><td>Nord [2,0]</td><td>Prêtre de l'Olympe.</td></tr><tr><td><strong>Le Hem-netjer</strong></td><td>Est [6,3]</td><td>Prêtre de Kemet.</td></tr><tr><td><strong>Le Bhakta</strong></td><td>Sud [1,6]</td><td>Prêtre du Dharma.</td></tr></tbody></table></div>
+
+</main>
+</div>
+<footer>Wiki d'un serveur privé Dofus Rétro joué en solo. Projet personnel, sans but commercial. Dofus est une marque d'Ankama ;
+ce projet n'est ni affilié ni approuvé par Ankama.</footer>
+<script src="recherche-donnees.js"></script>
+<script src="recherche.js"></script>
+</body>
+</html>
