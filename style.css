@@ -100,3 +100,12 @@ tr:target, td:has(> span:target) { background: var(--surface); }
 
 footer { max-width: 1120px; margin: 0 auto; padding: 16px 20px 32px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* Images (2026-11-06) */
+.logo { display: block; max-width: 100%; height: auto; margin: 0 auto 18px; }
+.banniere { display: block; width: 100%; height: auto; margin: 10px 0 12px; border-radius: 6px; }
+.ico { width: 48px; height: 48px; vertical-align: middle; margin-right: 8px; object-fit: contain; }
+.dieux { display: flex; flex-wrap: wrap; gap: 14px; margin: 4px 0 14px; }
+.dieu { margin: 0; text-align: center; width: 100px; }
+.dieu img { width: 100px; height: 100px; object-fit: contain; display: block; }
+.dieu figcaption { font-size: 14px; margin-top: 2px; }
