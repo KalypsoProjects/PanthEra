@@ -109,3 +109,5 @@ footer { max-width: 1120px; margin: 0 auto; padding: 16px 20px 32px; font-size: 
 .dieu { margin: 0; text-align: center; width: 100px; }
 .dieu img { width: 100px; height: 100px; object-fit: contain; display: block; }
 .dieu figcaption { font-size: 14px; margin-top: 2px; }
+.objet { float: left; width: 64px; height: 64px; object-fit: contain; margin: 0 14px 6px 0; }
+h2 { clear: both; }
